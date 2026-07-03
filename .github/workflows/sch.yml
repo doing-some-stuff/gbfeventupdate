@@ -3,7 +3,7 @@ name: Send hooks
 on:
   push:
   schedule:
-    - cron: "*/4 * * * *"
+    - cron: "*/5 * * * *"
 env:
     HOOKSECRET: ${{ secrets.HOOKSECRET}}
 jobs:
