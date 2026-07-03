@@ -1,0 +1,3 @@
+discord-webhook
+beautifulsoup4
+requests
