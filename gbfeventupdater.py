@@ -45,7 +45,7 @@ try:
         img_tag = banner_div.find('img')
         image_url = img_tag['src'] if img_tag else "https://i.imgur.com/eOtuYwq.png"
         
-        print(f"\nEvent: {event_title}")
+        #print(f"\nEvent: {event_title}")
         #print(f"Banner: {image_url}")
 
         if 'event-banner__image--has-ended' in banner_div.get('class', []):
