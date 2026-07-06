@@ -75,7 +75,7 @@ try:
                     chk2=f"{event_title}|{timeff}|Alert\n"
                     if chk2 in sentt:
                        continue
-                    datagbf["Time"].append("Lock in, chat! Only {hours_left} hours remaining!")
+                    datagbf["Time"].append(f"Lock in, chat! Only {hours_left} hours remaining!")
                     datagbf["Status"].append("Alert")
                 else:
                   chk2=f"{event_title}|{timeff}|Active\n"
